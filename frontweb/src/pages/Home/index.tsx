@@ -21,7 +21,6 @@ const Home = () => {
         <div className="home-card-button">
             <div className="home-content-container-btn">
                 <ButtonIcon/>
-                <p>Comece agora a navegar</p>
             </div>
         </div>
       </div>

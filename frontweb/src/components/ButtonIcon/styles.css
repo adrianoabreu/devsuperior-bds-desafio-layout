@@ -1,3 +1,79 @@
-.btn-icon {
-     height: 50px;
-}
+.btn-card {
+     padding: 7px 0px 25px 0px;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+   }
+   
+   .btn-card button {
+     width: 174px;
+     height: 40px;
+     margin-top: 21px;
+     background-color: #00285f;
+     border-radius: 5px;
+   }
+   
+   .btn-card h6 {
+     color: #ffffff;
+     font-size: 14px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   
+   .home-card-button {
+     margin-top: 21px;
+   }
+   
+   .home-card-button p {
+     font-size: 18px;
+     color: #585858;
+     margin-top: 9px;
+     margin-bottom: 0px;
+   }
+   
+   @media (min-width: 576px) {
+     .btn-card {
+       padding: 15px 62px 41px 85px;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+     }
+   
+     .home-card-button {
+       height: 123px;
+       display: flex;
+       margin-top: 30px;
+     }
+   
+     .home-card-button p {
+       width: 210px;
+       display: flex;
+       margin-top: 20px;
+       margin-left: 16px;
+     }
+   }
+   
+   @media (min-width: 768px) {
+     .home-card-button {
+       margin-top: 25px;
+     }
+   }
+   
+   @media (min-width: 992px) {
+     .btn-card {
+       flex-direction: row;
+       justify-content: space-around;
+     }
+   
+     .home-card-button {
+       margin-top: 30px;
+     }
+   
+     .home-card-button p {
+       width: 210px;
+       display: flex;
+       margin-top: 20px;
+       margin-left: 16px;
+     }
+   }
