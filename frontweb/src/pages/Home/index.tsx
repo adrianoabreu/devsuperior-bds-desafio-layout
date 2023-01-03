@@ -1,5 +1,5 @@
 import Navbar from "components/Navbar";
-import {ReactComponent as MainImage} from 'assets/images/car-header.svg';
+import CarImage from 'assets/images/car-header.png';
 import ButtonIcon from "components/ButtonIcon";
 import './styles.css';
 
@@ -15,7 +15,7 @@ const Home = () => {
                 <p>Conheça nossos carros e dê mais um passo na realização do seu sonho</p>
             </div>
             <div className="home-image-container">
-                <MainImage/>
+            <img src={CarImage} alt="car-img" />
             </div>
         </div>
         <div className="home-card-button">
