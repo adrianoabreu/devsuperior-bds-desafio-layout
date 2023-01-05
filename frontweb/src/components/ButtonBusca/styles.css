@@ -1,0 +1,20 @@
+.btn-card {
+    padding: 7px 0px 25px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .btn-card button {
+    width: 174px;
+    height: 40px;
+    margin-top: 21px;
+  }
+  
+  .btn-card h6 {
+    color: #ffffff;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

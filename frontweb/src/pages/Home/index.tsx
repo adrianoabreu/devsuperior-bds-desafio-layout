@@ -18,7 +18,7 @@ const Home = () => {
             <img src={CarImage} alt="car-img" />
             </div>
         </div>
-        <div className="home-card-button">
+        <div className="base-card  home-card-button">
             <div className="home-content-container-btn">
                 <ButtonIcon/>
             </div>

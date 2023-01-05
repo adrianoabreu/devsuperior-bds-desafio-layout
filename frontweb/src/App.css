@@ -13,3 +13,19 @@ a, a:hover {
     text-decoration: none;
     color: unset;
 }
+
+.base-button {
+    background-color: #00285f;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.base-card {
+    background-color: #EDEDED;
+    border-radius: 10px;
+
+}

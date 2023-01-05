@@ -5,7 +5,7 @@ const ButtonIcon = () => {
     <>
       <div className="button-home home-card-button">
         <div className="buttom-card btn-card">
-        <button className="btn btn-secundary">
+        <button className="base-button btn btn-secundary">
           <h6>VER CATÁLOGO</h6>
         </button>
         <div>
