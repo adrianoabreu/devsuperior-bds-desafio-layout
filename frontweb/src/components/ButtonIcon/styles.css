@@ -66,6 +66,7 @@
    
      .home-card-button {
        margin-top: 30px;
+       
      }
    
      .home-card-button p {
@@ -73,5 +74,16 @@
        display: flex;
        margin-top: 20px;
        margin-left: 16px;
+       
      }
+
+  
    }
+
+   @media (min-width: 1280px) {
+    .main-menu{
+      flex-direction: row;
+    justify-content: space-around;
+
+    }
+}

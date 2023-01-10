@@ -134,4 +134,11 @@
     height: 199px;
     margin-bottom: 83px;
   }
+
+  .home-card-button {
+    display: flex;
+    align-items:center;
+    text-align: center;
+    align-content:space-around;
+  }
 }

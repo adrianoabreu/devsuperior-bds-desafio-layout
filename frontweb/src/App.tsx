@@ -1,11 +1,11 @@
 
 import './assets/styles/custom.scss';
 import './App.css';
-import Car from 'pages/Car';
+import Routes from 'Routes';
 
 function App()  {
   return ( 
-    <Car/>
+    <Routes/>
   );
 }
 
