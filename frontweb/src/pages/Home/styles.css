@@ -140,5 +140,12 @@
     align-items:center;
     text-align: center;
     align-content:space-around;
+    flex-direction:row;
+  }
+
+  .home-content-container-btn{
+    display: flex;
+    align-items:center;
+    text-align: center;
   }
 }

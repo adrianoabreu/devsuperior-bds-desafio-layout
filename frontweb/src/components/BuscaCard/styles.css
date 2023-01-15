@@ -1,3 +1,32 @@
-.card-busca{
-    
+.card-busca {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-busca input {
+  display: flex;
+  width: 584px;
+  height: 40px;
+  left: 248px;
+  top: 142px;
+  border-radius: 5px 0px 0px 5px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  align-items: center;
+  
+}
+
+.card-busca button {
+  display: flex;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.btn-button {
+  display: flex;
+  align-items: center;
+  justify-content:center;
 }

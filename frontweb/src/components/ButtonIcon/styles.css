@@ -82,8 +82,21 @@
 
    @media (min-width: 1280px) {
     .main-menu{
-      flex-direction: row;
-    justify-content: space-around;
+      flex-direction: column;
+      justify-content:space-between;
+
+    }
+
+    .home-card-button {
+      display: flex;
+    }
+
+    .btn-card{
+      display: flex;
+    }
+
+    .texto-card{
+      display: flex;
 
     }
 }

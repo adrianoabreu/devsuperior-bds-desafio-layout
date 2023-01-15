@@ -3,12 +3,16 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
   }
   
   .btn-card button {
+    display: flex;
+    align-items: center;
     width: 174px;
-    height: 40px;
+    height: 100%;
     margin-top: 21px;
+    justify-content: center;
   }
   
   .btn-card h6 {
